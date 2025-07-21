@@ -24,12 +24,7 @@ public class Sprint_JumpMap : ModuleRules
 
 		PublicIncludePaths.AddRange(new string[] {
 			"Sprint_JumpMap",
-			"Sprint_JumpMap/Variant_Platforming",
-			"Sprint_JumpMap/Variant_Combat",
-			"Sprint_JumpMap/Variant_Combat/AI",
-			"Sprint_JumpMap/Variant_SideScrolling",
-			"Sprint_JumpMap/Variant_SideScrolling/Gameplay",
-			"Sprint_JumpMap/Variant_SideScrolling/AI"
+			"Sprint_JumpMap/JumpMapComponents"
 		});
 
 		// Uncomment if you are using Slate UI
