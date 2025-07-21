@@ -4,7 +4,7 @@
 #include "Components/SphereComponent.h"
 #include "PullerComponent.generated.h"
 
-UCLASS(meta = (BlueprintSpawnableComponent))
+UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class SPRINT_JUMPMAP_API UPullerComponent : public USphereComponent
 {
 	GENERATED_BODY()
